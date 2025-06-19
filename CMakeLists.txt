@@ -1,6 +1,7 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.5)
 project(GLIP)
 
+set(OpenGL_GL_PREFERENCE GLVND)
 find_package(GLUT)
 find_package(OpenGL)
 find_package(OpenCV)
